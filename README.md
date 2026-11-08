@@ -3,7 +3,8 @@
 ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP
 
 - **GitHub repository:** https://github.com/gauthamRohan/student-dropout-ml
-- **Live Streamlit app:** _add link after deployment_ (append `?data=sample` to open it with the bundled test data)
+- **Live Streamlit app:** https://student-dropout-classifier.streamlit.app/
+  (open https://student-dropout-classifier.streamlit.app/?data=sample to start with the bundled test data loaded)
 
 ---
 

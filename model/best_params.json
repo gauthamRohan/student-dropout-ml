@@ -1,0 +1,22 @@
+{
+  "Logistic Regression": {
+    "C": 5.0,
+    "class_weight": "balanced"
+  },
+  "Decision Tree": {
+    "criterion": "gini",
+    "max_depth": 10,
+    "min_samples_leaf": 20
+  },
+  "KNN": {
+    "n_neighbors": 5,
+    "weights": "uniform"
+  },
+  "Naive Bayes": {
+    "var_smoothing": 1e-09
+  },
+  "Support Vector Machine": {
+    "C": 10.0,
+    "gamma": 0.01
+  }
+}

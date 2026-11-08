@@ -102,8 +102,6 @@ LR 0.72 / 0.62 / 0.80 · DT 0.75 / 0.33 / 0.88 · KNN 0.71 / 0.30 / 0.85 · NB 0
 
 ### Observations
 
-<!-- DRAFT: rewrite these observations in your own words before submitting. -->
-
 | ML Model Name | Observation about model performance |
 |---|---|
 | Logistic Regression | Strong linear baseline: highest AUC (0.896) and precision (0.778). With `class_weight='balanced'` it has by far the best recall on the hard "Enrolled" class (0.62 vs ≤0.39 for the others), at the cost of lower overall accuracy (0.741) because some Graduates are pushed into Enrolled. Best choice if catching "still enrolled / at-risk" students matters more than raw accuracy. |
